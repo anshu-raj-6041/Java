@@ -22,7 +22,7 @@ class Circle {
     }
 }
 
-public class Circle_1 {
+public class Q2_Circle {
     public static void main(String[] args) {
         // Object creation
         Circle c1 = new Circle();

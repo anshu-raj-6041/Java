@@ -26,16 +26,16 @@ class Cylinder {
     }
     // setter
     public void setRadius(double r) {
-        r = radius;
+        radius = r;
 
     }
     public void setHeight(double h) {
-        h = height;
+        height = h;
 
     }
     public void setDimension(double r, double h) {
-        r = radius;
-        h = height;
+        radius = r;
+        height = h;
 
     }
 
@@ -49,12 +49,12 @@ class Cylinder {
     }
 }
 
-public class Cylinder_1 {
+public class Q2_Cylinder {
     public static void main(String[] args) {
         // object creation
         Cylinder C1 = new Cylinder();
-        C1.setRadius(50);
-        C1.setHeight(10);
+        // C1.setRadius(50);
+        // C1.setHeight(10);
 
         System.out.println("lidArea => " + C1.lidArea());
         System.out.println("Volume => " + C1.volume());

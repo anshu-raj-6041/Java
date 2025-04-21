@@ -5,7 +5,7 @@ package OOPS.Constructor;
 // Two types of constructor 1>Non-Parameterised 2>Parameterised
 // Constructor is a method which has same name as class name 
 // do not have return type
-// usually public
+// usually public but they can be make private
 
 class Rectangle {
     // Properties
@@ -18,26 +18,33 @@ class Rectangle {
         breadth = 1;
     }
 
-    // Parameterised
+    // Parameterised Constructor
     public Rectangle(double l, double b) {
         length = l;
         breadth = b;
     }
 
-    // Methods
+    public Rectangle(double s) {
+        length = breadth = s;
+    }
+
+    // instance Methods
     public double area() {
         return (length * breadth);
     }
 
 }
 
-public class Rec_1 {
+public class Q1_Rec {
     public static void main(String[] args) {
-        // Object creation using Non-Parameterised
+        // Object creation using Non-Parameterised Constructor
         Rectangle R1 = new Rectangle();
 
-        // Object creation using Parameterised constructor
+        // Object creation using Parameterised Constructor
         // Rectangle R1 = new Rectangle(10, 5);
+
+        // third wla
+        // Rectangle R1 = new Rectangle(10);
 
         System.out.println("Area => " + R1.area());
 

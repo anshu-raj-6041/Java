@@ -18,9 +18,15 @@ class Rectangle {
         return b;
     }
 
-    // setter
+    // setter methods
     public void setLength(double length) {
-        l = length;
+        // l = length;
+        if(length > 0) {
+            l = length;
+        }
+        else {
+            l = 0;
+        }
     }
 
     public void setBreadth(double breadth) {

@@ -5,9 +5,19 @@ class Customer {
     private String cusId;
     private String name;
     private String address;
-    private String phNO;
+    private String phNo;
 
     // Constructor
+    public Customer(String cId, String n) {
+        cusId = cId;
+        name = n;
+    }
+    public Customer(String cId, String n, String add, String p) {
+        cusId = cId;
+        name = n;
+        address = add;
+        phNo = p;
+    }
 
     // property methods
     // getter
@@ -21,19 +31,20 @@ class Customer {
         return address;
     }
     public String getPhNo() {
-        return phNO;
+        return phNo;
     }
-    // setter
+    // setter (always void hota hai)
     public void setAddress(String add) {
-        add = address;
+        address = add;
     }
     public void setPhNo(String pn) {
-        pn = phNO;
+        phNo = pn;
     }
 }
 
-public class Customer_1 {
+public class Q4_Customer {
     public static void main(String[] args) {
+        // object creation
         Customer C1 = new Customer();
 
     }

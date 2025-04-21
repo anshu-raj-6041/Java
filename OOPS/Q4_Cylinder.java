@@ -5,6 +5,7 @@ class Cylinder {
     public double r;
     public double h;
 
+    // Methods
     public double lidArea() {
         return (Math.PI*r*r);
     }
@@ -24,7 +25,7 @@ class Cylinder {
 }
 
 // application class
-public class Cylinder_1 {
+public class Q4_Cylinder {
     public static void main(String[] args) {
         // Object creation
         Cylinder C1 = new Cylinder();

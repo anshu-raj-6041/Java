@@ -13,6 +13,7 @@ class Student {
     }
 
     public float avg() {
+        // because total gives int, typecast total()
         return (float) total() / 3;
     }
 
@@ -27,14 +28,14 @@ class Student {
     public String details() {
         return "Roll: " + roll + "\n" + "Name: " + name + "\n";
     }
-    public String toString() {
-        return "Roll: " + roll + "\n" + "Name: " + name + "\n";
-    }
+    // public String toString() {
+    //     return "Roll: " + roll + "\n" + "Name: " + name + "\n";
+    // }
 }
 
-public class Student_1 {
+public class Q5_Student {
     public static void main(String[] args) {
-        // Object
+        // Object creation
         Student S1 = new Student();
 
         S1.roll = 34;
@@ -46,8 +47,9 @@ public class Student_1 {
 
         System.out.println("Total => " + S1.total());
         System.out.println("Average => " + S1.avg());
-        System.out.println("Details => " + S1.details());
-        System.out.println("Details => " + S1);
+        System.out.println("Details ::\n" + S1.details());
+        // jb toString() hoga tb directly S1 se access kr skte hai
+        // System.out.println("Details => " + S1);
 
     }
 

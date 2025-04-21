@@ -2,7 +2,7 @@ package OOPS.Constructor;
 
 class Product {
     // Properties
-    private String itemNo; // alphaNumeric
+    private String itemNo; // alphaNumeric(A25-76)
     private String name;
     private double price;
     private int qty;
@@ -51,10 +51,14 @@ class Product {
         return "Item No: " + itemNo + ", Price: " + price + ", Name: " + name
                 + ", Quantity: " + qty;
     }
+    public String details() {
+        return "Item No: " + itemNo + ", Price: " + price + ", Name: " + name
+                + ", Quantity: " + qty;
+    }
 
 }
 
-public class Product_1 {
+public class Q3_Product {
     public static void main(String[] args) {
         Product P1 = new Product();
 
@@ -62,6 +66,7 @@ public class Product_1 {
         P1.setQty(5);
 
         System.out.println("Product Details => " + P1);
+        System.out.println("Product Details => " + P1.details());
 
     }
 

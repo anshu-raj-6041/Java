@@ -25,13 +25,13 @@ class Rectangle {
     }
 }
 
-public class Rec_1 {
+public class Q3_Rec {
     public static void main(String[] args) {
         // Object creation
         Rectangle R1 = new Rectangle();
 
         R1.l = 5;
-        R1.b = 5;
+        R1.b = 55;
 
         System.out.println("Area of Rec => " + R1.area());
         System.out.println("Perimeter of Rec => " + R1.perimeter());
