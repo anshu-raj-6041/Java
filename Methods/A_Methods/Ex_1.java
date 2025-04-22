@@ -14,9 +14,9 @@ public class Ex_1 {
     // }
     // }
 
-    static void inc(int x) {
-        x++;
-        System.out.println(x);
+    static void inc(int a) {
+        a++;
+        System.out.println(a);
     }
 
     public static void main(String[] args) {
