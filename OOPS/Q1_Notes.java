@@ -9,6 +9,8 @@ package OOPS;
 // Class(design) vs Object
 // Object can be defined using 1>Properties(variable) 2>Behaviour(Methods)
 
+// To use setter, we have to make property as private
+
 public class Q1_Notes {
     public static void main(String[] args) {
 
