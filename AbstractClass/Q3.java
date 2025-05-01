@@ -11,9 +11,9 @@ abstract class KFC {
 
     }
 
-    abstract void billing();
+    abstract public void billing();
 
-    abstract void offer();
+    abstract public void offer();
 }
 
 class MyKFC extends KFC {
@@ -22,15 +22,15 @@ class MyKFC extends KFC {
 
     }
 
-    void billing() {
+    public void billing() {
         System.out.println("Billing => MyKFC");
     }
 
-    void offer() {
+    public void offer() {
         System.out.println("Offer => MyKFC");
     }
 
-    void festiveOffer() {
+    public void festiveOffer() {
         System.out.println("festiveOffer => MyKFC");
     }
 }

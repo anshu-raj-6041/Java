@@ -3,13 +3,13 @@ package AbstractClass;
 // We cannot create Object of abstract class
 
 abstract class Hospital {
-    abstract void emergency();
+    abstract public void emergency();
 
-    abstract void appointment();
+    abstract public void appointment();
 
-    abstract void admit();
+    abstract public void admit();
 
-    abstract void billing();
+    abstract public void billing();
 }
 
 class MyHospital extends Hospital {
@@ -19,19 +19,19 @@ class MyHospital extends Hospital {
 
     // Sb ko override krna jruri hai
     @Override
-    void emergency() {
+    public void emergency() {
         System.out.println("Emergency");
     }
 
-    void appointment() {
+    public void appointment() {
         System.out.println("Appointment");
     }
 
-    void admit() {
+    public void admit() {
         System.out.println("Admit");
     }
 
-    void billing() {
+    public void billing() {
         System.out.println("Billing");
     }
 

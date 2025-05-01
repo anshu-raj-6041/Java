@@ -1,11 +1,12 @@
 package Methods.A_Methods;
 // object mtlb array, String
 
-// Passing Object pass as Parameter
+// Passing Object pass as Parameter(Original obj is modified)
 
 // content from actual param(main) copies to formal param
 
-public class Ex_2 {
+public class Q2 {
+    // static isliye kyki main() method static hai
     static void update(int arr[]) {
         arr[0] = 420;
     }
