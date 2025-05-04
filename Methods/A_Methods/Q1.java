@@ -21,8 +21,6 @@ public class Q1 {
 
         System.out.println("Enter the First no:");
         a = sc.nextInt();
-        // System.out.println("Enter the Second no:");
-        // b = sc.nextInt();
 
         inc(a);
         System.out.println(a);

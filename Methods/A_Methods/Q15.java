@@ -1,11 +1,12 @@
 package Methods.A_Methods;
 // 1> Max of no using variable argument
 
-public class Ex_15 {
-    static int max(int... A) {
+public class Q15 {
+    static int max(int... A) {  //VA
         if (A.length == 0) {
             return Integer.MIN_VALUE;
         }
+
         int max = A[0];
         for (int i = 1; i < A.length; i++) {
             if (A[i] > max) {

@@ -2,11 +2,12 @@ package Methods.A_Methods;
 
 import java.util.Scanner;
 // Parameter Passing
-// call by value
+// the content of actual parameter are passed to formal parameter
+// call by value (primitive)
 
-public class Ex_4 {
-    static int add(int a, int b) { // formal parameter
-        return (a + b);
+public class Q4 {
+    static int add(int x, int y) { // formal parameter
+        return (x + y);
     }
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package Methods.A_Methods;
 // Q1> Overloading method to cal areas
 
-public class Ex_10 {
+public class Q10 {
     static double area(double l, double b) {
         return (l * b);
     }
@@ -11,7 +11,7 @@ public class Ex_10 {
     }
 
     static double area(double l, double b, double h) {
-        return (l * b * h);
+        return ((l + b) * h) / 2;
     }
 
     public static void main(String[] args) {

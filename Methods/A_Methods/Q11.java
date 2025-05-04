@@ -3,15 +3,15 @@ package Methods.A_Methods;
 import java.util.Scanner;
 // overload method to reverse a int or array
 
-public class Ex_11 {
+public class Q11 {
     static int reverse(int n) {
-        int num = 0;
+        int res = 0;
         while (n != 0) {
             int digit = n % 10;
-            num = num * 10 + digit;
+            res = res * 10 + digit;
             n = n / 10;
         }
-        return num;
+        return res;
     }
 
     // reverse an array

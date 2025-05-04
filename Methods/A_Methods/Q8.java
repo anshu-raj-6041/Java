@@ -2,12 +2,12 @@ package Methods.A_Methods;
 
 import java.util.Scanner;
 
-public class Ex_8 {
+public class Q8 {
     static int findMax(int arr[]) {
         int maxNo = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
-            if (arr[i] > maxNo) {
+            if (maxNo < arr[i]) {
                 maxNo = arr[i];
             }
         }

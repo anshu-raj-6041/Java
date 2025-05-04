@@ -1,12 +1,12 @@
 package Methods.A_Methods;
 // GCD of 2 no
 
-// jo bda subtract small wla
+// jo bda subtract small wla, jb tk equal na ho jaye
 
 import java.util.Scanner;
 
-public class Ex_7 {
-    int gcd(int m, int n) {
+public class Q7 {
+    public int gcd(int m, int n) {
         while (m != n) {
             if (m > n) {
                 m = (m - n);
@@ -28,8 +28,8 @@ public class Ex_7 {
 
         // gcd(m, n);
         // If we are not using static in method class
-        Ex_7 x = new Ex_7();
-        System.out.println(x.gcd(m, n));
+        Q7 x = new Q7();
+        System.out.println("GCD => "+ x.gcd(m, n));
     }
 
 }
