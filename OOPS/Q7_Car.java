@@ -4,6 +4,7 @@ class Car {
     // Properties
     public String name;
     public String regNo;
+    // public Color col;
     public double fuelQty; 
 
     // Methods

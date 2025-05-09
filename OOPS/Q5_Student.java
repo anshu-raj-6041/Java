@@ -12,13 +12,14 @@ class Student {
         return (m1 + m2 + m3);
     }
 
-    public float avg() {
+    public double avg() {
         // because total gives int, typecast total()
-        return (float) total() / 3;
+        // return (float) total() / 3;
+        return total() / 3.0;
     }
 
     public char grade() {
-        if (avg() > 60) {
+        if (avg() >= 60) {
             return 'A';
         } else {
             return 'B';
@@ -48,6 +49,7 @@ public class Q5_Student {
         System.out.println("Total => " + S1.total());
         System.out.println("Average => " + S1.avg());
         System.out.println("Details ::\n" + S1.details());
+        
         // jb toString() hoga tb directly S1 se access kr skte hai
         // System.out.println("Details => " + S1);
 

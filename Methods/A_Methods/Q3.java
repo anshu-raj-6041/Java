@@ -21,6 +21,7 @@ public class Q3 {
         for (int x : arr) {
             System.out.print(x + " ");
         }
+        System.out.println();
 
         int x = 10;
         update2(x, 20);

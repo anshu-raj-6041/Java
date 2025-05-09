@@ -8,10 +8,12 @@ class Account {
 
     // Methods
     public void deposit(int amount) {
+        System.out.println(amount + " Amount Deposited");
 
     }
 
     public void withdraw(int amount) {
+        System.out.println(amount + " Amount withdraw");
 
     }
 }
@@ -19,6 +21,9 @@ class Account {
 public class Q6_Account {
     public static void main(String[] args) {
         Account A1 = new Account();
+
+        A1.deposit(500);
+        A1.withdraw(100);
 
     }
 

@@ -28,6 +28,7 @@ class Rectangle {
 public class Q3_Rec {
     public static void main(String[] args) {
         // Object creation
+        // R1 is ref of type Rectangle with object new Rectangle()
         Rectangle R1 = new Rectangle();
 
         R1.l = 5;

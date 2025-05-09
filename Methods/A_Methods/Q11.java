@@ -19,7 +19,7 @@ public class Q11 {
         int s = 0;
         int e = arr.length - 1;
 
-        while (s < e) {
+        while (s < e) { // swap kr diye
             int temp = arr[s];
             arr[s] = arr[e];
             arr[e] = temp;
