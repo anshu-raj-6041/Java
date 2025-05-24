@@ -1,4 +1,5 @@
 package OOPS;
+// void me return nhi hota hai
 
 class Tv {
     // Properties
@@ -24,7 +25,7 @@ class Tv {
 public class Q8_TV {
     public static void main(String[] args) {
         // Object creation
-        Tv T1 = new Tv();
+        Tv t1 = new Tv();
 
     }
 

@@ -28,15 +28,15 @@ class Cylinder {
 public class Q4_Cylinder {
     public static void main(String[] args) {
         // Object creation
-        Cylinder C1 = new Cylinder();
+        Cylinder c1 = new Cylinder();
 
-        C1.r = 10;
-        C1.h = 20;
+        c1.r = 10;
+        c1.h = 20;
 
-        System.out.println("lidArea => " + C1.lidArea());
-        System.out.println("totalSurfaceArea => " + C1.totalSurfaceArea());
-        System.out.println("Volume => " + C1.volume());
-        System.out.println("Circumference => " + C1.circumference());
+        System.out.println("lidArea => " + c1.lidArea());
+        System.out.println("totalSurfaceArea => " + c1.totalSurfaceArea());
+        System.out.println("Volume => " + c1.volume());
+        System.out.println("Circumference => " + c1.circumference());
 
     }
 

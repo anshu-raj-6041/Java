@@ -8,6 +8,10 @@ class Customer {
     private String phNo;
 
     // Constructor
+    public Customer() {
+        cusId = "A24";
+        name = "Anshu";
+    }
     public Customer(String cId, String n) {
         cusId = cId;
         name = n;

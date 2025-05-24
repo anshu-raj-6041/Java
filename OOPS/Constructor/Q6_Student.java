@@ -34,7 +34,7 @@ class Student {
         sub = subject;
     }
 
-    // Constructor
+    // Constructor // jb same naam use krte hai to (this.rollNo) use krte hai
     public Student(int rollNo, String name) {
         this.rollNo = rollNo;
         this.name = name;

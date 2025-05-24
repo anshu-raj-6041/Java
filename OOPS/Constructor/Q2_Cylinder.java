@@ -41,7 +41,7 @@ class Cylinder {
 
     // instance methods
     public double lidArea() {
-        return Math.PI * radius * radius;
+        return (Math.PI * radius * radius);
     }
 
     public double volume() {

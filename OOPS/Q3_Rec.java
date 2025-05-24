@@ -1,5 +1,6 @@
 package OOPS;
 // void me return nhi hota hai
+// jb properties private hoga tb getter setter use krna hai
 
 class Rectangle {
     // Properties
@@ -28,15 +29,15 @@ class Rectangle {
 public class Q3_Rec {
     public static void main(String[] args) {
         // Object creation
-        // R1 is ref of type Rectangle with object new Rectangle()
-        Rectangle R1 = new Rectangle();
+        // r1 is ref of type Rectangle with object new Rectangle()
+        Rectangle r1 = new Rectangle();
 
-        R1.l = 5;
-        R1.b = 55;
+        r1.l = 5;
+        r1.b = 5;
 
-        System.out.println("Area of Rec => " + R1.area());
-        System.out.println("Perimeter of Rec => " + R1.perimeter());
-        System.out.println("Is Square => " + R1.isSquare());
+        System.out.println("Area of Rec => " + r1.area());
+        System.out.println("Perimeter of Rec => " + r1.perimeter());
+        System.out.println("Is Square => " + r1.isSquare());
 
     }
 

@@ -1,4 +1,4 @@
-package OOPS.Constructor;
+package Lab.Lab_4;
 
 // import javax.security.auth.Subject;
 
@@ -63,7 +63,7 @@ class Subject {
     }
 }
 
-public class Q5_Subject {
+public class Q5 {
     public static void main(String[] args) {
         // Array of Object
         Subject subs[] = new Subject[3];
@@ -71,7 +71,6 @@ public class Q5_Subject {
         subs[1] = new Subject(102, "Algorithm", 200);
         subs[2] = new Subject(103, "COA", 70);
 
-        // display
         for(Subject s:subs) {
             System.out.println(s);
         }

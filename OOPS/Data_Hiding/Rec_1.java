@@ -5,6 +5,7 @@ package OOPS.Data_Hiding;
 // 3> Write only :: setter
 
 class Rectangle {
+    // jb properties private hoga tb getter setter use kr skte hai
     // Properties
     private double l;
     private double b;

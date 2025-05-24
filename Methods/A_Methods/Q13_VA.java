@@ -13,8 +13,9 @@ public class Q13_VA {
     public static void main(String[] args) {
         show();
         show(10, 20, 30);
+        show(10, 20, 30, 40, 50);
         
-        show(new int[] { 10, 20, 30, 40 }); // work for both (int []A)
+        // show(new int[] { 10, 20, 30, 40 }); // work for both (int []A)
 
     }
 

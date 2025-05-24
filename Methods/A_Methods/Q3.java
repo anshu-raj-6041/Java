@@ -18,8 +18,8 @@ public class Q3 {
         // System.out.print(arr[i] + " ");
         // }
         // or
-        for (int x : arr) {
-            System.out.print(x + " ");
+        for (int it : arr) {
+            System.out.print(it + " ");
         }
         System.out.println();
 

@@ -37,21 +37,21 @@ class Student {
 public class Q5_Student {
     public static void main(String[] args) {
         // Object creation
-        Student S1 = new Student();
+        Student s1 = new Student();
 
-        S1.roll = 34;
-        S1.name = "Anshu";
-        S1.course = "CSE";
-        S1.m1 = 92;
-        S1.m2 = 100;
-        S1.m3 = 80;
+        s1.roll = 34;
+        s1.name = "Anshu";
+        s1.course = "CSE";
+        s1.m1 = 92;
+        s1.m2 = 100;
+        s1.m3 = 80;
 
-        System.out.println("Total => " + S1.total());
-        System.out.println("Average => " + S1.avg());
-        System.out.println("Details ::\n" + S1.details());
+        System.out.println("Total => " + s1.total());
+        System.out.println("Average => " + s1.avg());
+        System.out.println("Details ::\n" + s1.details());
         
-        // jb toString() hoga tb directly S1 se access kr skte hai
-        // System.out.println("Details => " + S1);
+        // jb toString() hoga tb directly s1 se access kr skte hai
+        // System.out.println("Details => " + s1);
 
     }
 

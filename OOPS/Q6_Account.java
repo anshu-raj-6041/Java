@@ -1,4 +1,5 @@
 package OOPS;
+// jb properties private hoga tb getter setter use krna hai
 
 class Account {
     // Properties
@@ -20,10 +21,10 @@ class Account {
 
 public class Q6_Account {
     public static void main(String[] args) {
-        Account A1 = new Account();
+        Account a1 = new Account();
 
-        A1.deposit(500);
-        A1.withdraw(100);
+        a1.deposit(500);
+        a1.withdraw(100);
 
     }
 
