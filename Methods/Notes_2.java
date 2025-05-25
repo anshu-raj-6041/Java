@@ -5,8 +5,7 @@ import java.util.Scanner;
 
 public class Notes_2 {
     static int cube(int n) {
-        int ans = (n * n * n);
-        return ans;
+        return (n * n * n);
     }
 
     public static void main(String[] args) {

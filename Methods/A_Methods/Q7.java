@@ -21,9 +21,9 @@ public class Q7 {
         Scanner sc = new Scanner(System.in);
         int m, n;
 
-        System.out.println("Enter the First no:");
+        System.out.println("Enter the First no: ");
         m = sc.nextInt();
-        System.out.println("Enter the Second no:");
+        System.out.println("Enter the Second no: ");
         n = sc.nextInt();
 
         // gcd(m, n);

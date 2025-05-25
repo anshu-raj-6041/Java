@@ -1,4 +1,5 @@
 package OOPS.Constructor;
+// Array of Objects
 
 // import javax.security.auth.Subject;
 
@@ -42,6 +43,7 @@ class Subject {
         this.name = name;
 
     }
+
     public Subject(int subID, String name, int maxMarks) {
         this.subID = subID;
         this.name = name;
@@ -72,8 +74,8 @@ public class Q5_Subject {
         subs[2] = new Subject(103, "COA", 70);
 
         // display
-        for(Subject s:subs) {
-            System.out.println(s);
+        for (Subject x : subs) {
+            System.out.println(x);
         }
 
     }

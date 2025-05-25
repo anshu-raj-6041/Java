@@ -1,5 +1,5 @@
 package Methods.A_Methods;
-// function in java known as methods
+// function in java is known as methods
 
 // Methods are member of class which provide functionality to the class
 

@@ -38,7 +38,7 @@ public class Q11 {
 
         System.out.println("Enter the size of Array");
         int size = sc.nextInt();
-        int[] arr = new int[size];
+        int arr[] = new int[size];
         System.out.println("Enter elements of Array");
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();

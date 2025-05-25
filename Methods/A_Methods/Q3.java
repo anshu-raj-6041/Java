@@ -5,6 +5,7 @@ public class Q3 {
         arr[index] = value;
 
     }
+
     static void update2(int x, int value) {
         x = value;
     }
@@ -18,8 +19,8 @@ public class Q3 {
         // System.out.print(arr[i] + " ");
         // }
         // or
-        for (int it : arr) {
-            System.out.print(it + " ");
+        for (int anshu : arr) {
+            System.out.print(anshu + " ");
         }
         System.out.println();
 

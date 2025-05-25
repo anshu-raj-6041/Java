@@ -1,18 +1,15 @@
-package ExceptionHandling;
-// nested try-catch
+package Lab.Lab_8;
 
-public class Q3_nestedTC {
+public class Q2_NT {
     public static void main(String[] args) {
-        int arr[] = {10, 0, 30, 40};
+        int arr[] = {10, 0, 20, 30, 40};
 
         try {
-            // int arr[] = {10, 0, 30, 40};
             try {
-                int r = arr[0]/arr[1];
-                System.out.println(r);
+                System.out.println(arr[0]/arr[1]);
             }
             catch(ArithmeticException e) {
-                System.out.println("Divison by 0 " + e);
+                System.out.println("Divide by 0 " + e);
             }
             System.out.println(arr[10]);
         }

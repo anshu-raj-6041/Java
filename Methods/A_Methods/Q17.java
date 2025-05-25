@@ -18,7 +18,7 @@ public class Q17 {
 
     public static void main(String[] args) {
         // discount(100, 20, 50, 8000);
-        System.out.println("Discount => "+discount(1000.5, 5000, 40, 80));
+        System.out.println("Discount => "+discount(1000.5, 5000, 40, 80.9));
 
     }
 

@@ -7,7 +7,7 @@ public class Q19 {
         for (String x : args) {
             // sum = sum + Double.parseDouble(x);
 
-            if (x.matches("[0-9\\.]+")) {   // will ignore
+            if (x.matches("[0-9\\.]+")) { // will ignore
                 sum = sum + Double.parseDouble(x);
             }
         }

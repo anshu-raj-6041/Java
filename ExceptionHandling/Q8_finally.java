@@ -11,17 +11,15 @@ public class Q8_finally {
     public static void main(String[] args) {
         int m = 109;
         try {
-            if(m>100) {
+            if (m > 100) {
                 throw new MyE();
             }
-        }
-        catch(MyE e) {
+        } catch (MyE e) {
             System.out.println("Error");
-        }
-        finally {
+        } finally {
             System.out.println("Bye");
         }
-        
+
     }
-    
+
 }

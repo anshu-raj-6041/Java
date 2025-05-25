@@ -12,10 +12,12 @@ class Customer {
         cusId = "A24";
         name = "Anshu";
     }
-    public Customer(String cId, String n) {
-        cusId = cId;
-        name = n;
+
+    public Customer(String cusId, String name) {
+        this.cusId = cusId;
+        this.name = name;
     }
+
     public Customer(String cId, String n, String add, String p) {
         cusId = cId;
         name = n;
@@ -28,19 +30,24 @@ class Customer {
     public String getCusId() {
         return cusId;
     }
+
     public String getName() {
         return name;
     }
+
     public String getAddress() {
         return address;
     }
+
     public String getPhNo() {
         return phNo;
     }
+
     // setter (always void hota hai)
     public void setAddress(String add) {
         address = add;
     }
+
     public void setPhNo(String pn) {
         phNo = pn;
     }

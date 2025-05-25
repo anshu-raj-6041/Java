@@ -6,7 +6,6 @@ import java.util.Scanner;
 public class Q6 {
     // static isliye kyuki main() se method call ho rha hai
     static boolean isPrime(int p) {
-        // int c = 0;
         for (int i = 2; i <= (p / 2); i++) {
             if (p % i == 0) {
                 return false;

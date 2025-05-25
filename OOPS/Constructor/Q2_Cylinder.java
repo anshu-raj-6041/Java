@@ -12,34 +12,38 @@ class Cylinder {
     }
 
     // Parameterised Constructor
-    public Cylinder(double r, double h) {
-        radius = r;
-        height = h;
+    public Cylinder(double radius, double height) {
+        this.radius = radius;
+        this.height = height;
     }
 
     // getter
     public double getRadius() {
         return radius;
     }
+
     public double getHeight() {
         return height;
     }
+
     // setter
     public void setRadius(double r) {
         radius = r;
 
     }
+
     public void setHeight(double h) {
         height = h;
 
     }
+
     public void setDimension(double r, double h) {
         radius = r;
         height = h;
 
     }
 
-    // instance methods
+    // Methods
     public double lidArea() {
         return (Math.PI * radius * radius);
     }

@@ -1,5 +1,5 @@
 package Methods.A_Methods;
-// Q1> Overloading method to cal areas
+// Q1> Overloading method to cal area
 
 public class Q10 {
     static double area(double l, double b) {

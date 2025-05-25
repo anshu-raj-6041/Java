@@ -1,5 +1,7 @@
 package ExceptionHandling;
-// throw and throws
+// throw vs throws
+// propagation of Exception
+// throw ya throws nhi likhe kyki Unchecked expression hai (AE), need not to be handle
 
 public class Q5 {
     // main ke andr likh rhe hai (static)

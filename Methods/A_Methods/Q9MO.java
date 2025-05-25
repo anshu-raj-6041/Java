@@ -2,7 +2,7 @@ package Methods.A_Methods;
 // Method Overloading
 
 // method ka naam same rahega
-// 1> data type of parameter should be different
+// 1> data type of parameter should be different, if same no of parameter
 // 2> no of parameter should be different
 
 public class Q9MO {

@@ -13,9 +13,9 @@ class Product {
         name = "Maggi";
     }
 
-    public Product(String i, String n) {
-        itemNo = i;
-        name = n;
+    public Product(String itemNo, String name) {
+        this.itemNo = itemNo;
+        this.name = name;
     }
 
     // getter and setter (property methods)
@@ -51,6 +51,7 @@ class Product {
         return "Item No: " + itemNo + ", Price: " + price + ", Name: " + name
                 + ", Quantity: " + qty;
     }
+
     public String details() {
         return "Item No: " + itemNo + ", Price: " + price + ", Name: " + name
                 + ", Quantity: " + qty;

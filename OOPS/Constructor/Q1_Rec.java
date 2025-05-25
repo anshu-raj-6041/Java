@@ -19,16 +19,16 @@ class Rectangle {
     }
 
     // Parameterised Constructor
-    public Rectangle(double l, double b) {
-        length = l;
-        breadth = b;
+    public Rectangle(double length, double breadth) {
+        this.length = length;
+        this.breadth = breadth;
     }
 
     public Rectangle(double s) {
         length = breadth = s;
     }
 
-    // instance Methods
+    // Methods
     public double area() {
         return (length * breadth);
     }
@@ -38,15 +38,15 @@ class Rectangle {
 public class Q1_Rec {
     public static void main(String[] args) {
         // Object creation using Non-Parameterised Constructor
-        Rectangle R1 = new Rectangle();
+        // Rectangle r1 = new Rectangle();
 
         // Object creation using Parameterised Constructor
-        // Rectangle R1 = new Rectangle(10, 5);
+        // Rectangle r1 = new Rectangle(10, 5);
 
         // third wla
-        // Rectangle R1 = new Rectangle(10);
+        Rectangle r1 = new Rectangle(10);
 
-        System.out.println("Area => " + R1.area());
+        System.out.println("Area => " + r1.area());
 
     }
 

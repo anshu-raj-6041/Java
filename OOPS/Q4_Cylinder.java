@@ -7,20 +7,20 @@ class Cylinder {
 
     // Methods
     public double lidArea() {
-        return (Math.PI*r*r);
+        return (Math.PI * r * r);
     }
 
     public double totalSurfaceArea() {
-        return (2*lidArea()+circumference()*h);
+        return (2 * lidArea() + circumference() * h);
     }
 
     public double volume() {
-        return (lidArea()*h);
+        return (lidArea() * h);
 
     }
 
     public double circumference() {
-        return (2*Math.PI*r);
+        return (2 * Math.PI * r);
     }
 }
 
@@ -33,8 +33,8 @@ public class Q4_Cylinder {
         c1.r = 10;
         c1.h = 20;
 
-        System.out.println("lidArea => " + c1.lidArea());
-        System.out.println("totalSurfaceArea => " + c1.totalSurfaceArea());
+        System.out.println("Lid Area: => " + c1.lidArea());
+        System.out.println("Total Surface Area: => " + c1.totalSurfaceArea());
         System.out.println("Volume => " + c1.volume());
         System.out.println("Circumference => " + c1.circumference());
 
