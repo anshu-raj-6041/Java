@@ -1,5 +1,8 @@
 package AbstractClass;
 
+// abstract class 
+// if method is abstract, class should be made abstract
+// vice-versa not compulsory
 abstract class Super {
     // Constructor
     public Super() {
@@ -10,10 +13,11 @@ abstract class Super {
         System.out.println("Meth1 of Super");
     }
 
-    // abstract method
+    // abstract method (no body)
     abstract public void meth2();
 }
 
+// to become concrete class => override all abstract methods of Super class
 class Sub extends Super {
     @Override
     public void meth2() {

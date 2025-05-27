@@ -1,5 +1,7 @@
 package Inheritance;
 
+// Circle(super class) <---- Cylinder(sub class)
+
 // Parent class/ Super class
 class Circle {
     // Properties
@@ -12,16 +14,19 @@ class Circle {
 
     // Methods
     public double area() {
-        return (Math.PI*radius*radius);
+        return (Math.PI * radius * radius);
     }
+
     public double perimeter() {
-        return (2*Math.PI*radius);
+        return (2 * Math.PI * radius);
     }
+
     public double circumference() {
         return perimeter();
     }
 
 }
+
 // Child class/ Sub class
 // extends :: everything from Circle class is av in Cy class but not access
 class Cylinder extends Circle {
@@ -36,21 +41,22 @@ class Cylinder extends Circle {
     // Methods
     public double volume() {
         // return ((Math.PI*radius*radius)*height);
-        return (area()*height);
+        return (area() * height);
     }
 }
 
 public class Q2_CircleCy {
     public static void main(String[] args) {
         // Object creation
-        // Circle C1 = new Circle();
-        Cylinder C2 = new Cylinder();
+        // Circle c1 = new Circle();
+        Cylinder c2 = new Cylinder();
 
-        C2.radius = 10;
-        C2.height = 5;
+        c2.radius = 7;
+        c2.height = 10;
 
-        System.out.println("Area => "+C2.area());
-        System.out.println("Volume => "+C2.volume());
+        // System.out.println("Area => " + c1.area());
+        System.out.println("Area => " + c2.area());
+        System.out.println("Volume => " + c2.volume());
 
     }
 

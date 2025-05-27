@@ -13,6 +13,7 @@ abstract class Hospital {
 }
 
 class MyHospital extends Hospital {
+    // Constructor
     public MyHospital() {
 
     }
@@ -39,9 +40,9 @@ class MyHospital extends Hospital {
 
 public class Q2 {
     public static void main(String[] args) {
-        Hospital H1 = new MyHospital();
+        Hospital h1 = new MyHospital();
         // sirf Super ka call hota hai 
-        H1.emergency();
+        h1.emergency();
 
     }
 

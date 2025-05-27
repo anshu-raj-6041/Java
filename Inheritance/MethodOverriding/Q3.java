@@ -1,5 +1,6 @@
 package Inheritance.MethodOverriding;
 
+// super class
 class Car {
     public void start() {
         System.out.println("Car started");
@@ -14,6 +15,7 @@ class Car {
     }
 }
 
+// sub class
 class LCar extends Car {
     @Override
     public void changeGear() {
@@ -27,16 +29,17 @@ class LCar extends Car {
 
 public class Q3 {
     public static void main(String[] args) {
-        Car C1 = new Car();
-        // C1.accelerate();
-        // C1.changeGear();
+        Car c1 = new Car();
+        c1.accelerate();
+        c1.changeGear();
 
-        LCar C2 = new LCar();
+        LCar c2 = new LCar();
         // C2.start();
         // C2.accelerate();
-        // C2.changeGear();
-        // C2.openRoof();
+        c2.changeGear();
+        c2.openRoof();
 
+        // Dynamic Method Dispatch
         Car C3 = new LCar();
         // Method call hoga 1 wla
         C3.start();

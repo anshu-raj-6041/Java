@@ -1,5 +1,7 @@
 package Inheritance.Constructor;
 
+// using super class constructor
+
 // Parent Class
 class Rectangle {
     // Properties
@@ -38,17 +40,18 @@ class Cuboid extends Rectangle {
 
     // Methods
     public int volume() {
+        // length, b coming from Rec class
         return (length * breadth * height);
     }
 }
 
 public class Q3_Rec {
     public static void main(String[] args) {
-        // Cuboid C1 = new Cuboid();
-        // Cuboid C1 = new Cuboid(10);
-        Cuboid C1 = new Cuboid(5, 3, 15);
+        // Cuboid c1 = new Cuboid();
+        // Cuboid c1 = new Cuboid(10); // l=b=1
+        Cuboid c1 = new Cuboid(5, 3, 15);   // super()
 
-        System.out.println("Volume => " + C1.volume());
+        System.out.println("Volume => " + c1.volume());
 
     }
 

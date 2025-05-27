@@ -29,14 +29,14 @@ class Cuboid extends Rectangle {
 // Child class
 public class Q2a_RecCub {
     public static void main(String[] args) {
-        Cuboid C1 = new Cuboid();
+        Cuboid c1 = new Cuboid();
 
-        C1.length = 5;
-        C1.breadth = 5;
-        C1.height = 5;
+        c1.length = 5;
+        c1.breadth = 5;
+        c1.height = 5;
 
-        System.out.println("Area => " + C1.area());
-        System.out.println("Volume => " + C1.volume());
+        System.out.println("Area => " + c1.area());
+        System.out.println("Volume => " + c1.volume());
 
     }
 

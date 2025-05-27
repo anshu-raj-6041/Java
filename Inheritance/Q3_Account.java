@@ -64,24 +64,25 @@ class Account {
     }
 }
 
-class savingAc extends Account {
+class SavingAc extends Account {
     // Properties
     public double deposit;
     public double withdraw;
     public double FD;
 
-    public savingAc(int accNo, String name, String address, int phNo, String dob) {
+    // Constructor
+    public SavingAc(int accNo, String name, String address, int phNo, String dob) {
         super(accNo, name, address, phNo, dob);
     }
 
 }
 
 // Child class/ sub Class
-class loanAc extends Account {
+class LoanAc extends Account {
     public double payEMI;
     public double topUpLoan;
 
-    public loanAc(int accNo, String name, String address, int phNo, String dob) {
+    public LoanAc(int accNo, String name, String address, int phNo, String dob) {
         super(accNo, name, address, phNo, dob);
     }
 
@@ -89,7 +90,7 @@ class loanAc extends Account {
 
 public class Q3_Account {
     public static void main(String[] args) {
-        Account A1 = new Account(420, "Modi", "Gujarat", 9085, "17-09-1950");
+        Account a1 = new Account(420, "Modi", "Gujarat", 9085, "17-09-1950");
 
     }
 

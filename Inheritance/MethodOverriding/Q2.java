@@ -22,6 +22,7 @@ class SmartTv extends TV {
     public void changeChannel() {
         System.out.println("Smart TV channel is changed");
     }
+
     public void browse() {
         System.out.println("Smart TV is browsing");
     }
@@ -31,18 +32,18 @@ class SmartTv extends TV {
 public class Q2 {
     public static void main(String[] args) {
         // T1 is reference
-        TV T1 = new TV();
-        // T1.switchOn();
-        // T1.changeChannel();
+        // TV t1 = new TV();
+        // t1.switchOn();
+        // t1.changeChannel();
 
-        SmartTv T2 = new SmartTv();
-        // T2.switchOn();
-        // T2.browse();
+        SmartTv t2 = new SmartTv();
+        t2.switchOn();
+        t2.browse();
 
-        // T3 => reference is of TV(Super) class and object is of Sub class
-        TV T3 = new SmartTv();
-        T3.switchOn();  // Smart TV is switch on
-        T3.changeChannel(); // Smart TV change channel
+        // t3 => reference is of TV(Super) class and object(sub) is of Sub class
+        TV t3 = new SmartTv();
+        t3.switchOn(); // Smart TV is switch on
+        t3.changeChannel(); // Smart TV change channel
         // we cannot browse()
 
     }
