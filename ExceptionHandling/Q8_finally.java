@@ -9,7 +9,7 @@ class MyE extends Exception {
 
 public class Q8_finally {
     public static void main(String[] args) {
-        int m = 109;
+        int m = 10;
         try {
             if (m > 100) {
                 throw new MyE();

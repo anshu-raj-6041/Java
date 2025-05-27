@@ -1,12 +1,13 @@
-package ExceptionHandling;
-// nested try-catch
+package Sem.ATJ;
+// 1> WAP that will show multiple exceptions at same time. Use nested try block.
 
-public class Q3_nestedTC {
+import java.rmi.AccessException;
+
+public class Q1 {
     public static void main(String[] args) {
-        int arr[] = { 10, 0, 30, 40 };
+        int arr[] = { 10, 0, 40, 80, 70 };
 
         try {
-            // int arr[] = {10, 0, 30, 40};
             try {
                 int r = arr[0] / arr[1];
                 System.out.println(r);
