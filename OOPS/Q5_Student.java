@@ -27,7 +27,7 @@ class Student {
     }
 
     public String details() {
-        return "Roll: " + roll + "\n" + "Name: " + name + "\n";
+        return "Roll: " + roll + "\n" + "Name: " + name + "\n" + "Course: " + course + "\n";
     }
     // public String toString() {
     //     return "Roll: " + roll + "\n" + "Name: " + name + "\n";
@@ -46,8 +46,8 @@ public class Q5_Student {
         s1.m2 = 100;
         s1.m3 = 80;
 
-        System.out.println("Total => " + s1.total());
-        System.out.println("Average => " + s1.avg());
+        // System.out.println("Total => " + s1.total());
+        // System.out.println("Average => " + s1.avg());
         System.out.println("Details ::\n" + s1.details());
         
         // jb toString() hoga tb directly s1 se access kr skte hai

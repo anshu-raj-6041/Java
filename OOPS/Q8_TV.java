@@ -18,6 +18,7 @@ class Tv {
 
     }
     public void increaseVol() {
+        System.out.println("Increase the volume");
 
     }
 }
@@ -26,6 +27,10 @@ public class Q8_TV {
     public static void main(String[] args) {
         // Object creation
         Tv t1 = new Tv();
+
+        t1.name = "Samsung";
+
+        t1.increaseVol();
 
     }
 

@@ -22,7 +22,7 @@ class Rectangle {
         // } else {
         // return false;
         // }
-        return l == b;
+        return l == b;  // if both are equal return true else false
     }
 }
 
@@ -33,7 +33,7 @@ public class Q3_Rec {
         Rectangle r1 = new Rectangle();
 
         r1.l = 5;
-        r1.b = 5;
+        r1.b = 2;
 
         System.out.println("Area of Rec => " + r1.area());
         System.out.println("Perimeter of Rec => " + r1.perimeter());

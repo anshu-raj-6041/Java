@@ -1,10 +1,10 @@
 package OOPS.Constructor;
 
-// Constructor is a method of a class which is called automatically whenever 
+// Constructor is a method of a class which is called automatically whenever
 // we are creating object
 // Two types of constructor 1>Non-Parameterised 2>Parameterised
-// Constructor is a method which has same name as class name ***
-// do not have return type ***
+// Constructor is a method which has same name as class name
+// do not have return type
 // usually public but they can be make private
 
 class Rectangle {
@@ -14,8 +14,8 @@ class Rectangle {
 
     // Constructor (Non-Parameterised)
     public Rectangle() {
-        length = 1;
-        breadth = 1;
+        length = 5;
+        breadth = 10;
     }
 
     // Parameterised Constructor
@@ -41,10 +41,10 @@ public class Q1_Rec {
         // Rectangle r1 = new Rectangle();
 
         // Object creation using Parameterised Constructor
-        // Rectangle r1 = new Rectangle(10, 5);
+        Rectangle r1 = new Rectangle(10, 5);
 
         // third wla
-        Rectangle r1 = new Rectangle(10);
+        // Rectangle r1 = new Rectangle(10);
 
         System.out.println("Area => " + r1.area());
 

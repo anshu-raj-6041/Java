@@ -1,5 +1,6 @@
 package OOPS.Data_Hiding;
 // Types of Properties
+
 // 1> Read and Write :: getter and setter
 // 2> Read only :: getter
 // 3> Write only :: setter
@@ -21,13 +22,13 @@ class Rectangle {
 
     // setter methods
     public void setLength(double length) {
+        l = length;
+        // if(length > 0) {
         // l = length;
-        if(length > 0) {
-            l = length;
-        }
-        else {
-            l = 0;
-        }
+        // }
+        // else {
+        // l = 0;
+        // }
     }
 
     public void setBreadth(double breadth) {
@@ -37,7 +38,7 @@ class Rectangle {
     // instance methods
     public double area() {
         // return (l * b);
-        return getLength()*getBreadth();
+        return getLength() * getBreadth();
     }
 
     public double perimeter() {
