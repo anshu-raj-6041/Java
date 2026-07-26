@@ -1,4 +1,4 @@
-package OOPS.Constructor;
+package OOPS.Constructor.arrayOfObjects;
 
 class Student {
     // Properties

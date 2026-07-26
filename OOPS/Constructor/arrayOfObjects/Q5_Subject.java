@@ -1,4 +1,4 @@
-package OOPS.Constructor;
+package OOPS.Constructor.arrayOfObjects;
 // Array of Objects
 
 // import javax.security.auth.Subject;

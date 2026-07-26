@@ -61,10 +61,10 @@ class Product {
 
 public class Q3_Product {
     public static void main(String[] args) {
-        Product P1 = new Product();
+        Product P1 = new Product("B-50", "PG");
 
-        P1.setPrice(50);
-        P1.setQty(5);
+        // P1.setPrice(50);
+        // P1.setQty(5);
 
         System.out.println("Product Details => " + P1);
         System.out.println("Product Details => " + P1.details());
