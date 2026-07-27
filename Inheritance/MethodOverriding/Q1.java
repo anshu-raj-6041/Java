@@ -25,8 +25,8 @@ public class Q1 {
 
         // Dynamic Method Dispatch (method of Object will be called)
         // Super class reference holding Object of Sub class
-        Super S3 = new Sub();   // Hello from Sub
-        S3.display();
+        Super s3 = new Sub();   // Hello from Sub
+        s3.display();
         
     }
     

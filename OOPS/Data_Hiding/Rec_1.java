@@ -1,5 +1,5 @@
 package OOPS.Data_Hiding;
-// Types of Properties
+// Types of Property methods
 
 // 1> Read and Write :: getter and setter
 // 2> Read only :: getter
@@ -47,11 +47,12 @@ class Rectangle {
 
     // enquiry methods
     public boolean isSquare() {
-        if (l == b) {
-            return true;
-        } else {
-            return false;
-        }
+        // if (l == b) {
+        // return true;
+        // } else {
+        // return false;
+        // }
+        return l == b;
     }
 }
 

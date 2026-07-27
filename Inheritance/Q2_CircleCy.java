@@ -28,7 +28,7 @@ class Circle {
 }
 
 // Child class/ Sub class
-// extends :: everything from Circle class is av in Cy class but not access
+// extends :: everything from Circle class is av in Cy class but not accessible
 class Cylinder extends Circle {
     // Properties
     public double height;

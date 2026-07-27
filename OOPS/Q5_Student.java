@@ -26,12 +26,13 @@ class Student {
         }
     }
 
-    public String details() {
-        return "Roll: " + roll + "\n" + "Name: " + name + "\n" + "Course: " + course + "\n";
-    }
-    // public String toString() {
-    //     return "Roll: " + roll + "\n" + "Name: " + name + "\n";
+    // public String details() {
+    // return "Roll: " + roll + "\n" + "Name: " + name + "\n" + "Course: " + course
+    // + "\n";
     // }
+    public String toString() {
+        return "Roll: " + roll + "\n" + "Name: " + name + "\n";
+    }
 }
 
 public class Q5_Student {
@@ -48,10 +49,10 @@ public class Q5_Student {
 
         // System.out.println("Total => " + s1.total());
         // System.out.println("Average => " + s1.avg());
-        System.out.println("Details ::\n" + s1.details());
-        
+        // System.out.println("Details ::\n" + s1.details());
+
         // jb toString() hoga tb directly s1 se access kr skte hai
-        // System.out.println("Details => " + s1);
+        System.out.println("Details => " + s1);
 
     }
 

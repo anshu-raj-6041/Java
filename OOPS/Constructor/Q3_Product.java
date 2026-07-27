@@ -66,8 +66,11 @@ public class Q3_Product {
         // P1.setPrice(50);
         // P1.setQty(5);
 
-        System.out.println("Product Details => " + P1);
-        System.out.println("Product Details => " + P1.details());
+        // P1.getName();
+
+        // System.out.println("Product Details => " + P1);
+        // System.out.println("Product Details => " + P1.details());
+        System.out.println("Product Details => " + P1.getName());
 
     }
 

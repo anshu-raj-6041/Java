@@ -56,7 +56,7 @@ class Cylinder {
 public class Q2_Cylinder {
     public static void main(String[] args) {
         // object creation
-        Cylinder C1 = new Cylinder();
+        Cylinder C1 = new Cylinder(5, 10);
         // C1.setRadius(50);
         // C1.setHeight(10);
 

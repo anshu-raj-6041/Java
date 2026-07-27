@@ -31,16 +31,17 @@ class SmartTv extends TV {
 
 public class Q2 {
     public static void main(String[] args) {
-        // T1 is reference
+        // t1 is reference
         // TV t1 = new TV();
         // t1.switchOn();
         // t1.changeChannel();
 
-        SmartTv t2 = new SmartTv();
-        t2.switchOn();
-        t2.browse();
+        // SmartTv t2 = new SmartTv();
+        // t2.switchOn();
+        // t2.browse();
 
         // t3 => reference is of TV(Super) class and object(sub) is of Sub class
+        // DMD
         TV t3 = new SmartTv();
         t3.switchOn(); // Smart TV is switch on
         t3.changeChannel(); // Smart TV change channel

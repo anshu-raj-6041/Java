@@ -1,7 +1,6 @@
 package OOPS.Constructor;
 
-// Constructor is a method of a class which is called automatically whenever
-// we are creating object
+// Constructor is a method of a class which is called automatically whenever we are creating object
 // Two types of constructor 1>Non-Parameterised 2>Parameterised
 // Constructor is a method which has same name as class name
 // do not have return type

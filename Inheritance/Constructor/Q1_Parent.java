@@ -1,7 +1,7 @@
 package Inheritance.Constructor;
 // Constructor in Inheritance
 
-// Constructors are methods in class which are called automatically when Ob is created
+// Constructors are methods in class which are called automatically when Object is created
 
 class Parent {
     // Constructor

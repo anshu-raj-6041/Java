@@ -18,7 +18,7 @@ class Tv {
 
     }
     public void increaseVol() {
-        System.out.println("Increase the volume");
+        System.out.println("Increase the volume of " + name);
 
     }
 }

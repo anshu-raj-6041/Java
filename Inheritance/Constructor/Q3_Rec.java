@@ -48,8 +48,8 @@ class Cuboid extends Rectangle {
 public class Q3_Rec {
     public static void main(String[] args) {
         // Cuboid c1 = new Cuboid();
-        // Cuboid c1 = new Cuboid(10); // l=b=1
-        Cuboid c1 = new Cuboid(5, 3, 15);   // super()
+        Cuboid c1 = new Cuboid(10); // l=b=1
+        // Cuboid c1 = new Cuboid(5, 3, 15);   // super()
 
         System.out.println("Volume => " + c1.volume());
 
