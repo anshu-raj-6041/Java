@@ -14,14 +14,14 @@ class Rectangle {
         this.breadth = breadth;
     }
     // public Rectangle(int l, int b) {
-    //     this.length = l;
-    //     this.breadth = b;
+    // this.length = l;
+    // this.breadth = b;
     // }
 
     // Methods
     public void display() {
-        System.out.println("Length => "+length);
-        System.out.println("Breadth => "+breadth);
+        System.out.println("Length => " + length);
+        System.out.println("Breadth => " + breadth);
     }
 }
 
@@ -32,7 +32,7 @@ public class Q1 {
 
         r1.display();
         // r2.display();
-        
+
     }
-    
+
 }

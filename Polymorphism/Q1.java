@@ -1,6 +1,10 @@
 package Polymorphism;
 
-// Polymorphism using MO (compile time polymorphism)
+// Polymorphism => one name, diff action
+// Polymorphism can be achieved using both MO and Method Overloading
+
+// Polymorphism using M Overloading (compile time polymorphism)
+
 
 class Test {
     public int max(int a, int b) {

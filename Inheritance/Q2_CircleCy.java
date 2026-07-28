@@ -9,7 +9,7 @@ class Circle {
 
     // Constructor (Non-Parameterised)
     // public Circle() {
-    //     radius = 10;
+    // radius = 10;
     // }
 
     // Methods
@@ -35,7 +35,7 @@ class Cylinder extends Circle {
 
     // Constructor
     // public Cylinder() {
-    //     height = 5;
+    // height = 5;
     // }
 
     // Methods
@@ -51,6 +51,7 @@ public class Q2_CircleCy {
         // Circle c1 = new Circle();
         Cylinder c2 = new Cylinder();
 
+        // c1.radius = 7;
         c2.radius = 7;
         c2.height = 10;
 

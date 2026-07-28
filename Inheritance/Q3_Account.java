@@ -31,7 +31,7 @@ class Account {
         return dob;
     }
 
-    public double getbalance() {
+    public double getBalance() {
         return balance;
     }
 

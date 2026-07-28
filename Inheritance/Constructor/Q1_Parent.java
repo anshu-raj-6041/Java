@@ -28,7 +28,7 @@ public class Q1_Parent {
         // Object creation
         // Parent p1 = new Parent(); // Parent C
         // Child c1 = new Child(); // Parent C, Child C
-        GrandChild G1 = new GrandChild(); // Parent c, Child C, GrandChild c
+        GrandChild g1 = new GrandChild(); // Parent c, Child C, GrandChild c
 
     }
 
