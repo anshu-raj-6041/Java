@@ -8,13 +8,13 @@ class Account {
     public double balance;
 
     // Methods
-    public void deposit(int amount) {
-        System.out.println(amount + " Amount Deposited");
+    public void deposit(int amountD) {
+        System.out.println(amountD + " Amount Deposited");
 
     }
 
-    public void withdraw(int amount) {
-        System.out.println(amount + " Amount withdraw");
+    public void withdraw(int amountW) {
+        System.out.println(amountW + " Amount withdraw");
 
     }
 }

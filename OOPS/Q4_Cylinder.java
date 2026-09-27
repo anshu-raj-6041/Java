@@ -28,6 +28,7 @@ class Cylinder {
 public class Q4_Cylinder {
     public static void main(String[] args) {
         // Object creation
+        // c1 is a ref var of type Cylinder which refers to object created by new Cylinder()
         Cylinder c1 = new Cylinder();
 
         c1.r = 10;

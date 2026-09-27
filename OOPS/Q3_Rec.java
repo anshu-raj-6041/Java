@@ -30,6 +30,7 @@ public class Q3_Rec {
     public static void main(String[] args) {
         // Object creation
         // r1 is ref of type Rectangle with object new Rectangle()
+        // r1 is a ref variable of type Rectangle, which refers to the object created by new Rectangle().
         Rectangle r1 = new Rectangle();
 
         r1.l = 5;

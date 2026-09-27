@@ -37,6 +37,7 @@ class MyKFC extends KFC {
 
 public class Q3 {
     public static void main(String[] args) {
+        // K1 is ref of Super class(KFC) and object of Sub class(MyKFC)
         KFC K1 = new MyKFC();
         K1.billing();
         K1.makeItem();

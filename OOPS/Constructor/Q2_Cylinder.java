@@ -28,7 +28,7 @@ class Cylinder {
 
     // setter
     public void setRadius(double r) {
-        radius = r;
+        this.radius = r;
 
     }
 

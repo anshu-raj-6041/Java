@@ -1,8 +1,8 @@
 package OOPS;
 
-// How to write a Class
+// How to write a class
 // Every Class should have Properties and Methods
-// Properties => data
+// Properties => variable
 
 class Circle {
     // Properties
