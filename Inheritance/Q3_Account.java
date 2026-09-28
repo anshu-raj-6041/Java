@@ -66,24 +66,36 @@ class Account {
 
 class SavingAc extends Account {
     // Properties
-    public double deposit;
-    public double withdraw;
-    public double FD;
+    // public double deposit;
+    // public double withdraw;
+    // public double FD;
 
     // Constructor
     public SavingAc(int accNo, String name, String address, int phNo, String dob) {
         super(accNo, name, address, phNo, dob);
     }
 
+    public void deposit() {
+        System.out.println("Money Deposit");
+    }
+
+    public void withdraw() {
+        System.out.println("Money Withdraw");
+    }
+
 }
 
 // Child class/ sub Class
 class LoanAc extends Account {
-    public double payEMI;
-    public double topUpLoan;
+    // public double payEMI;
+    // public double topUpLoan;
 
     public LoanAc(int accNo, String name, String address, int phNo, String dob) {
         super(accNo, name, address, phNo, dob);
+    }
+
+    public void Account() {
+        System.out.println("PayEMI");
     }
 
 }

@@ -37,7 +37,7 @@ class Cuboid extends Rectangle {
 
     public Cuboid(int l, int b, int h) {
         super(l, b);
-        height = h;
+        this.height = h;
     }
 
     // Methods

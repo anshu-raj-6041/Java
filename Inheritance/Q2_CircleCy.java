@@ -28,7 +28,8 @@ class Circle {
 }
 
 // Child class/ Sub class
-// extends :: everything from Circle class is av in Cy class but not accessible
+// extends :: everything from Circle class is avalaible in Cy class but not
+// accessible
 class Cylinder extends Circle {
     // Properties
     public double height;
@@ -51,13 +52,13 @@ public class Q2_CircleCy {
         // Circle c1 = new Circle();
         Cylinder c2 = new Cylinder();
 
-        // c1.radius = 7;
+        // c1.radius = 1;
         c2.radius = 7;
         c2.height = 10;
 
         // System.out.println("Area => " + c1.area());
-        System.out.println("Area => " + c2.area());
-        System.out.println("Volume => " + c2.volume());
+        System.out.println("Area of cylinder => " + c2.area());
+        System.out.println("Volume of cylinder => " + c2.volume());
 
     }
 

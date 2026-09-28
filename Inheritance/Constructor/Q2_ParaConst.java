@@ -29,9 +29,9 @@ class Child extends Parent {
 
 public class Q2_ParaConst {
     public static void main(String[] args) {
-        Child c1 = new Child(); // Non PC of parent, Non PC of Child
+        // Child c1 = new Child(); // Non PC of parent, Non PC of Child
         // Child c2 = new Child(20); // Non PC of parent, PC of Child
-        // Child C1 = new Child(10, 20); // PC of parent10, 2 PC of child20
+        Child C1 = new Child(10, 20); // PC of parent10, 2 PC of child20
 
     }
 
